@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KONTAK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/wakhaji.png">
+    <script src="https://kit.fontawesome.com/23966f6cc8.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'poppins';
+        }
+
+        .containerk {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .order-item {
+            border-radius: 10px;
+            background: #e0e0e0;
+            box-shadow: 7px 7px 13px #bebebe,
+                -7px -7px 13px #ffffff;
+            padding: 20px;
+        }
+
+        .inp {
+            outline: none;
+            border: none;
+            padding: 10px;
+            margin-top: 15px;
+            border-radius: 5px;
+            width: 90%;
+            font-size: 1.1rem;
+        }
+
+        .submit {
+            text-decoration: none;
+            border: none;
+            color: #fff;
+            background-color: #525252;
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            border-radius: 2px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .submit:hover {
+            background-color: #272727;
+            color: #fff;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <div class="navbar">
+        <nav>
+            <div class="brand">
+                <a href="index.html">TOKO WAK HAJI</a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="product.html">PRODUCT</a>
+                    <ul class="dropdown">
+                        <li><a href="compass.html">Compass</a></li>
+                        <li><a href="hrtg.html">Heiden Heritage</a></li>
+                        <li><a href="johnson.html">Johnson</a></li>
+                        <li><a href="patrobas.html">Patrobas</a></li>
+                        <li><a href="ventela.html">Ventela</a></li>
+                    </ul>
+                <li><a href="kontak.html">KONTAK</a></li>
+                <li><a href="size.html">SIZE CHART</a></li>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- navbar -->
+
+    <section>
+        <div class="containerk">
+            <div class="order-item">
+                <form>
+                    <fieldset>
+                        <legend>Send Your Message</legend>
+                        <p>
+                            <label></label>
+                            <input type="text" name="nama" placeholder="Nama" class="inp" />
+                        </p>
+                        <p>
+                            <label></label>
+                            <input type="email" name="email" placeholder="Email" class="inp" />
+                        </p>
+                        <p>
+                            <label></label>
+                            <input type="number" name="nomorhp" placeholder="Number Phone" class="inp" />
+                        </p>
+                        <p>
+                            <label></label>
+                            <input type="text" name="nama" placeholder="Your Message" class="inp" />
+                        </p>
+                        <p>
+                            <label>
+                                <input type="submit" value="Send Message" class="submit">
+                            </label>
+                        </p>
+                    </fieldset>
+    </section>
+
+</body>
+
+</html>
